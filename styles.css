@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ccc0c0;
+    color: #333;
+    margin: 20px;
+  }
+
+#titulo {
+  background-color: blue;
+  margin: auto;
+  border: 2px solid black;
+  padding: 2em 2em 2em 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+}
+
+.titulo{
+  display: flex;
+  justify-content: center;
+
+}
+
+#contenedor {
+  background-color: aquamarine;
+  width: 75vw;
+  margin: auto;
+  margin-top: 5em;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 2em 2em 2em 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#contenedor-aritmetico{
+  background-color: yellow;
+  width: 75vw;
+  margin: auto;
+  margin-top: 5em;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 2em 2em 2em 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
